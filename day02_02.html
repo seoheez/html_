@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<div style="background-color: lime;">
+		<span style="background-color: pink;">div </span>
+		<span style="background-color: skyblue;">첫 번째</span>
+		 영역
+	</div>
+	<div style="background-color: yellow;">div 두 번째 영역</div>
+	<div style="background-color: red;">div 세 번째 영역</div>
+	
+	<span style="background-color: lime;">span 1</span>
+	<span>span 2</span>
+	<span>span 3</span>
+<hr>
+
+	<fieldset style="width:500px;">
+		<legend>취미조사</legend>
+		코딩<input type="checkbox">
+		산책<input type="checkbox">
+		먹기<input type="checkbox">
+	
+	</fieldset>
+
+	<textarea rows="3" cols="50"></textarea> <!-- 많은 양을 적을 때 -->
+<hr>
+	<form action="day02.html" method="get">
+	
+	<select name="select">
+		<option vlaue="p1">바나나	
+		<option vlaue="p2">귤
+		<option vlaue="p3">복숭아	
+		<option vlaue="p4">포도	
+	</select>
+
+	<!-- <form action="day02.html" method="post"> form으로 묶여 있어야 동작함. 사이트를 적어도 됨.-->
+											 <!-- get방식은 적은 양, post는 많은 양의 데이터 처리 가능. 가려짐. -->
+	<input type="text" name="query" placeholder="search text" ><br>
+		<input type="text" name="id" placeholder="input id" ><br>
+		<input type="password" name="pwd" placeholder="input pasword" ><br>
+		<input type="submit" value="로그인" > <!-- submit은 값들을 넘겨주는 역할 -->
+		<input type="reset" value="취소" >
+		<input type="button" value="버어튼" >
+	</form>
+
+<hr>
+<b>취미조사</b><br>
+자바공부<input type="checkbox">
+파이썬공부<input type="checkbox" checked>
+하루종일 공부<input type="checkbox" >
+
+<hr>
+10대 <input type="radio" name="age">
+20대 <input type="radio" name="age" checked>
+30대 <input type="radio" name="age"> <!-- name="age"는 하나만 선택 가능하도록 -->
+<hr>
+	<input type="button" value="버어튼"><br>
+	<input type="submit" value="서브밋"><br>
+	<input type="reset" value="취소"><br>
+	<input type="text" value="텍스트"><br>
+	<input type="password" value="비밀번호"><br>
+	라디오<input type="radio" ><br>
+	체크<input type="checkbox" ><br>
+
+</body>
+</html>
